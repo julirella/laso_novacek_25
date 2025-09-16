@@ -46,9 +46,6 @@ for line in f:
     line = line.split()        
     if line[0] == "insert":
         med_heap.insert(int(line[1]))
-    # elif line[0] == "remove":
-    #     elem = med_heap.median()
-    #     print("popped", elem)
     print(med_heap.minheap)
     print(med_heap.maxheap)
     print("median:", med_heap.median())
